@@ -14,14 +14,7 @@ function buildPlot() {
         
         data = [trace1];
         var layout = {
-            title: "Bigfoot Sightings Per Year",
-            xaxis: {
-                type: "date"
-            },
-            yaxis: {
-                autorange: true,
-                type: "linear"
-            }
+            title: "Bigfoot Sightings Per Year"
         };
     
         // Plot it
