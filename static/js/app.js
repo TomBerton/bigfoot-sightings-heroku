@@ -15,6 +15,17 @@ function buildPlot() {
             "mode": "lines"
         };
         data = [trace1];
+        data = [trace1];
+        var layout = {
+            title: "Bigfoot Sightings Per Year",
+            xaxis: {
+                type: "date"
+            },
+            yaxis: {
+                autorange: true,
+                type: "linear"
+            }
+        };
     
         // Plot it
         Plotly.plot("plot", data);
