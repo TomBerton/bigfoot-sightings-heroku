@@ -1,2 +1,2 @@
 # bigfoot-sightings-heroku
-Heroku app delivering bigofoot sightings
+Heroku app graphibng Bigfoot sightings over by year. 
