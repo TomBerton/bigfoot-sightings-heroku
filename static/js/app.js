@@ -14,7 +14,7 @@ function buildPlot() {
             "type": "scatter",
             "mode": "lines"
         };
-        data = [trace1];
+        
         data = [trace1];
         var layout = {
             title: "Bigfoot Sightings Per Year",
